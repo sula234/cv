@@ -1,0 +1,135 @@
+body {
+  /* override default settings */
+  margin: 0;/* space between box and other boxes or site border */
+  font-family: 'Merriweather', serif;
+  text-align: center; /* move text to center */
+}
+
+.top-container {
+  background-color: #FEF1E6;
+  position: relative; /* position depends on static position */
+  padding-top: 100px;
+}
+
+.profile {
+  margin-bottom: 70px;
+}
+
+.bottom-container {
+  background-color: #F9D5A7;
+  height: 120px;
+  padding: 20px;
+}
+
+.copyright {
+  margin-top: 40px;
+}
+
+.footer-link {
+  margin: 20px;
+}
+
+.contact-me{
+  height: 300px;
+  margin: 30px;
+}
+.contact-text1 {
+  margin: 50px;
+}
+.contact-text2 {
+  margin: 50px;
+
+}
+.contact-text3 {
+  margin: 50px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 200%;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+h1 {
+  /* override default settings */
+  color: #90AACB;
+  margin: 50px auto 0 auto;
+  font-size: 50px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.middle-container {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #90AACB;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #FFB085;
+}
+
+a {
+  color: #FF865E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute; /* depends on parent */
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.coding-image {
+  width: 25%;
+  float: left; /* made text next to image(from right side ) */
+  margin-right: 30px;
+}
+
+.travel-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FFB085;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #90AACB;
+  text-decoration: none;
+}
+
+hr {
+
+    border-color: #EAF6F6;
+    border-style: dashed none none;
+    border-width: 4px;
+    width: 5%;
+    margin: 100px auto;
+}
